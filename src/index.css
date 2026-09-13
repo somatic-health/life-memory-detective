@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #fdfaf5;
+    color: #333333;
+  }
+}
+
+.btn-shadow {
+  box-shadow: 0 4px 0 #8c6a5a;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn-shadow:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #8c6a5a;
+}
+
+.btn-shadow-coral {
+  box-shadow: 0 5px 0 #b3553d;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn-shadow-coral:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #b3553d;
+}
+
+.btn-shadow-blue {
+  box-shadow: 0 5px 0 #3b66b8;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn-shadow-blue:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #3b66b8;
+}
+
+.btn-shadow-green {
+  box-shadow: 0 5px 0 #3d752e;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn-shadow-green:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #3d752e;
+}
+
+.scanline {
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.15) 50%),
+              linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+  background-size: 100% 4px, 3px 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

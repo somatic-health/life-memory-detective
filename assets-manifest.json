@@ -1,0 +1,21 @@
+{
+  "project": "Life Memory Detective",
+  "status": "final-asset-integration-pass",
+  "source": "C:/Users/user/Downloads",
+  "targetRoot": "public/assets/questions",
+  "assetCount": 24,
+  "questions": [
+    {"id":"easy_01","scene":"早餐桌","difference":["咖啡杯消失"],"before":"easy_01_before.png","after":"easy_01_after.png"},
+    {"id":"easy_02","scene":"出門玄關","difference":["雨傘消失"],"before":"easy_02_before.png","after":"easy_02_after.png"},
+    {"id":"easy_03","scene":"客廳茶几","difference":["報紙換成雜誌"],"before":"easy_03_before.png","after":"easy_03_after.png"},
+    {"id":"easy_04","scene":"公園休息椅","difference":["毛巾換成小手帕"],"before":"easy_04_before.png","after":"easy_04_after.png"},
+    {"id":"normal_01","scene":"傳統市場採買","difference":["蘋果消失"],"before":"normal_01_before.png","after":"normal_01_after.png"},
+    {"id":"normal_02","scene":"廚房備料桌","difference":["湯匙位置移動"],"before":"normal_02_before.png","after":"normal_02_after.png"},
+    {"id":"normal_03","scene":"書桌整理","difference":["計算機換成小時鐘"],"before":"normal_03_before.png","after":"normal_03_after.png"},
+    {"id":"normal_04","scene":"旅行準備桌","difference":["帽子位置移動"],"before":"normal_04_before.png","after":"normal_04_after.png"},
+    {"id":"hard_01","scene":"週末郊遊準備","difference":["雨傘消失","帽子移動"],"before":"hard_01_before.png","after":"hard_01_after.png"},
+    {"id":"hard_02","scene":"運動後補給桌","difference":["香蕉消失","水壺換成保溫瓶"],"before":"hard_02_before.png","after":"hard_02_after.png"},
+    {"id":"hard_03","scene":"熟食採買整理","difference":["70 年代發票消失","飲料位置移動"],"before":"hard_03_before.png","after":"hard_03_after.png"},
+    {"id":"hard_04","scene":"居家整理桌","difference":["原子筆換成鉛筆","鑰匙位置移動"],"before":"hard_04_before.png","after":"hard_04_after.png"}
+  ]
+}
