@@ -40,7 +40,7 @@ export const ColorBarTransition: React.FC<ColorBarTransitionProps> = ({ isVisibl
   return (
     <div 
       id="vintage-color-bars" 
-      className="absolute inset-0 z-30 flex flex-col w-full h-full overflow-hidden select-none pointer-events-none rounded-[1.25rem]"
+      className="absolute inset-0 z-30 flex flex-col w-full h-full overflow-hidden select-none pointer-events-none"
       aria-label="復古彩色電視測試訊號"
     >
       {/* Top 67% standard color bars */}
